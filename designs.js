@@ -26,7 +26,7 @@ $(document).ready(function() {
 });
 
 // When size is submitted by the user, call makeGrid()
-// Leveraged the following resources to owrite this code:
+// Leveraged the following resources to write this code:
 // - https://www.w3schools.com/jsref/met_table_insertrow.asp
 // - https://stackoverflow.com/questions/27371109/insertrow-javascript-not-recognized
 // Tried it first using jQuery and caught a type error 
@@ -44,7 +44,7 @@ function makeGrid(height, width) {
                 event.target.style.backgroundColor = color;
             });
             cell.addEventListener('dblclick', function(event) { // https://www.w3schools.com/jsref/event_ondblclick.asp
-                console.log('test4');
+                // console.log('test4');
                 event.target.style.backgroundColor = ''; // I like the if/else method better that GlitchITSystem came up with, but with this one I came up on my own
             });
         };
